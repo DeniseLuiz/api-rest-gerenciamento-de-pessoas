@@ -1,4 +1,4 @@
-<h2>Digital Innovation: Expert class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
+<h2>Sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
 Pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
 
@@ -22,15 +22,25 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 ```
 http://localhost:8080/api/v1/people
 ```
-<h1>A aplicação encontra-se hospedada na nuvem e pode ser acessada através do link:
+
+#A aplicação encontra-se hospedada na nuvem e pode ser acessada através do link:
+
 ```
 https://api-people-bd.herokuapp.com/api/v1/people
 ```
-<h1>A aplicação encontra-se configurada e conectada a um banco de dados em memória. Após o build do projeto, basta acessar a seguinte url:
+
+#A aplicação encontra-se configurada e conectada a um banco de dados em memória. Após o build do projeto, basta acessar a seguinte url:
+
 ```
 http://localhost:8080/h2-console
 ```
-Para acesso ao bando de dados, 
+
+Para acesso ao bando de dados, é necessário que a configuração do JDBC esteja igual ao exemplo abaixo:
+
+```
+JDBC URL:jdbc:h2:mem:people
+```
+
 São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
 * Java 11 ou versões superiores.
